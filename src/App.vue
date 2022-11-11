@@ -1,23 +1,27 @@
 <template>
   <div id="app">
-    <HomePage/>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/education">Education</router-link>
+      <router-link to="/experience">Experience</router-link>
+      <router-link to="/projects">Projects</router-link>
+    </div>
+    <router-view />
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HomePage
+
   }
 }
 
 </script>
 
 <style>
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -32,5 +36,4 @@ body {
   padding: 0;
   margin: 0;
 }
-
 </style>
