@@ -39,6 +39,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
 .menu-center {
   font-size: 36px;
   color: #000000;
