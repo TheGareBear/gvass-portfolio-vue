@@ -3,7 +3,7 @@
     <div class="card" style="width: 50vw">
       <div class="card-body">
         <h5 class="card-title">The Array School of Technology and Design</h5>
-        <h6 class="card-subtitle mb-2 text-muted">August 2020 - December 2020</h6>
+        <h6 class="card-subtitle mb-2">August 2020 - December 2020</h6>
         <p class="card-text">
         <ul>
           <li>Created a Pixel Art Maker using HTML, CSS, and JavaScript</li>
@@ -28,20 +28,24 @@ export default {
 </script>
   
 <style scoped>
-h1 {
-  color: black;
+.edu-page {
+  display: flex;
+  justify-content: center;
 }
-
-h3 {
-  color: #e2e2e2
+.card {
+  margin: 15px;
 }
 
 h5 {
-  color: #e2e2e2
+  color: black;
+}
+
+h6 {
+  color: black;
 }
 
 li {
-  color: #e2e2e2
+  color: black;
 }
 </style>
   

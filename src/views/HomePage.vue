@@ -4,7 +4,7 @@
     <div class="card" style="width: 50vw">
       <div class="card-body">
         <h5 class="card-title">Garreck Vassar</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Great things do not come to those who want or wish for them, but to those who WORK for them.</h6>
+        <h6 class="card-subtitle mb-2">Great things do not come to those who want or wish for them, but to those who WORK for them.</h6>
         <p class="card-text">
         <ul>
           <li>I am a motivated and goal based individual that has years of front facing customer experience and a background in technology. I have transitioned from customer facing management into the Tech field as a Full stack Web and App developer. Currently I am working as a Software Integration Engineer.</li>
@@ -37,19 +37,15 @@ export default {
   margin: 15px;
 }
 
-h1 {
+h5 {
   color: black;
 }
 
-h3 {
-  color: #e2e2e2
-}
-
-h5 {
-  color: #e2e2e2
+h6 {
+  color: black;
 }
 
 li {
-  color: #e2e2e2
+  color: black;
 }
 </style>
