@@ -1,10 +1,21 @@
 <template>
   <div class="home">
-    <div class="menu">
-      <div class="menu-item menu-center">
-        Garreck Vassar
+    <div class="edu-page">
+    <div class="card" style="width: 50vw">
+      <div class="card-body">
+        <h5 class="card-title">Garreck Vassar</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Great things do not come to those who want or wish for them, but to those who WORK for them.</h6>
+        <p class="card-text">
+        <ul>
+          <li>I am a motivated and goal based individual that has years of front facing customer experience and a background in technology. I have transitioned from customer facing management into the Tech field as a Full stack Web and App developer. Currently I am working as a Software Integration Engineer.</li>
+          <a href="https://github.com/TheGareBear" target="_blank">Github Icon</a>
+          <br/>
+          <a href="https://www.linkedin.com/in/garreckvassar/" target="_blank">LinkedIn Icon</a>
+        </ul>
+        </p>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -17,31 +28,28 @@ export default {
 </script>
 
 <style scoped>
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: #707070;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 10px;
-  height: 60px;
-}
-
-.menu-item {
-  flex: 1;
-  text-align: center;
+.home {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.menu-center {
-  font-size: 36px;
-  color: #000000;
+.card {
+  margin: 15px;
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  color: #e2e2e2
+}
+
+h5 {
+  color: #e2e2e2
+}
+
+li {
+  color: #e2e2e2
 }
 </style>
