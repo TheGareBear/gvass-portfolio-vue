@@ -4,7 +4,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Software Integration Engineer II</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Bluepeak, April 2022 - Present</h6>
+        <h6 class="card-subtitle mb-2">Bluepeak, April 2022 - Present</h6>
         <p class="card-text">
         <ul>
           <li>Update and integrate new or existing tools to positively impact workflow through the company.</li>
@@ -17,7 +17,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Writer</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Colorful Chaos Short Stories, August 2019 - Present</h6>
+        <h6 class="card-subtitle mb-2">Colorful Chaos Short Stories, August 2019 - Present</h6>
         <p class="card-text">
         <ul>
           <li>Small blog and self published e-books typically in fiction, sci-fi, and fantasy.</li>
@@ -31,7 +31,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Developer/Adjunct Professor/Scrum Master</h5>
-        <h6 class="card-subtitle mb-2 text-muted">The Array School of Technology and Design/Array, Inc., July 2021 - October 2022</h6>
+        <h6 class="card-subtitle mb-2">The Array School of Technology and Design/Array, Inc., July 2021 - October 2022</h6>
         <p class="card-text">
         <ul>
           <li>Brought a multi-billion dollar corporation on board for apprenticeship placement after graduation through direct contact with Head of Recruiting. </li>
@@ -47,7 +47,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Chairman</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Advisory Technology Council - Cheyenne, WY, June 2021 - February 2022</h6>
+        <h6 class="card-subtitle mb-2">Advisory Technology Council - Cheyenne, WY, June 2021 - February 2022</h6>
         <p class="card-text">
         <ul>
           <li>Selected from a large pool of applicants to serve as a member of the newly formed Cheyenne Technology Council to advise on improvements and technology based pursuits in the city of Cheyenne, Wyoming.</li>
@@ -61,7 +61,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Full Stack Software Developer</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Bluepeak, April 2022 - Present</h6>
+        <h6 class="card-subtitle mb-2">Bluepeak, April 2022 - Present</h6>
         <p class="card-text">
         <ul>
           <li>Update and integrate new or existing tools to positively impact workflow through the company.</li>
@@ -74,7 +74,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Software Integration Engineer II</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Bluepeak, April 2022 - Present</h6>
+        <h6 class="card-subtitle mb-2">Bluepeak, April 2022 - Present</h6>
         <p class="card-text">
         <ul>
           <li>Scope, Design, and Develop multi-faceted applications and websites based on client need in a variety of languages including JavaScript and Dart.</li>
@@ -107,20 +107,16 @@ export default {
   display: flex;
 }
 
-h1 {
+h5 {
   color: black;
 }
 
-h3 {
-  color: #e2e2e2
-}
-
-h5 {
-  color: #e2e2e2
+h6 {
+  color: black;
 }
 
 li {
-  color: #e2e2e2
+  color: black;
 }
 
 .card {
