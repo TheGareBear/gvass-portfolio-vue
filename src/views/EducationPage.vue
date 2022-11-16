@@ -9,7 +9,7 @@
           <li>Created a Pixel Art Maker using HTML, CSS, and JavaScript</li>
           <li>Created a web chatroom with a partner using React, Redux, Express, Node, MongoDB and Web Sockets and
             deployed to Heroku</li>
-            <a href="https://garreck-kyle-chatroom.herokuapp.com/" target="_blank">glibness chat</a>
+          <a href="https://garreck-kyle-chatroom.herokuapp.com/" target="_blank">glibness chat</a>
           <li> Created a redesign for a local non-profit corporation in React, Redux, Node, Express and MongoDB</li>
           <li> Created a mobile application using React Native for an existing local theater company</li>
         </ul>
@@ -32,6 +32,7 @@ export default {
   display: flex;
   justify-content: center;
 }
+
 .card {
   margin: 15px;
 }
